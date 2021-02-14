@@ -101,3 +101,12 @@ h1, h2, h3, h4, h5, h6 {
 .blog-footer p:last-child {
   margin-bottom: 0;
 }
+
+.matrix {
+  max-width: 100%;
+  padding: 0px;
+  margin-bottom: 25px;
+  border-radius: 15px;
+  border: 20px solid rgb(32, 32, 32)
+  
+}
