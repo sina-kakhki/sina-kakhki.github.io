@@ -1,3 +1,6 @@
+body {
+    border-top: 5px solid #607079;
+}
 .blog-post {
     margin: 100px;
     margin-top: 50px;
