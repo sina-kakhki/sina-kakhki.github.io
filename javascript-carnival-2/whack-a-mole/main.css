@@ -1,0 +1,95 @@
+body {
+    background-image: url(./images/background2.png);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  @font-face {
+      font-family: '3dumbregular';
+      src: url('./3dumb-webfont.woff2') format('woff2'),
+          url('./3dumb-webfont.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+  }
+  
+  @font-face {
+      font-family: 'grinchedregular';
+      src: url('grinchedregular-webfont.woff2') format('woff2'),
+          url('grinchedregular-webfont.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+  
+  }
+  
+  #start-btn{
+    background-color: green;
+    border-color: green;
+    font-size: 1.5rem;
+    padding: 5px 10px;
+    border-radius: 0.3rem;
+    color: white;
+    margin-left: 80%;
+  }
+  
+  #score-board{
+    display: block;
+    align-content: center;
+  }
+  
+  
+  #counter{
+    color: brown;
+    font-size: 2.3rem;
+  }
+  #score{
+    color: brown;
+    font-size: 2.3rem;
+  }
+  
+  #mole {
+    width: 60px;
+  }
+  
+  #title {
+    margin-top: 40px;
+    font-size: 3.5rem;
+    color: brown;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-family: "grinchedregular";
+  }
+  
+  h1 { 
+    text-align: center;
+  }
+  
+  table {
+    margin-right: center;
+    margin-left: center;
+    margin: 0 auto;
+  }
+  
+  td {
+    background-color: BurlyWood;
+    height: 75px;
+    width: 75px;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  
+  #button {
+    margin: 0% 22%;
+    background-color: transparent;
+    border: none;
+    color: white;
+  }
+  
+  .dress-an-image {
+    position: absolute;
+    top: -70px;
+    left: 0px;
+  }
