@@ -49,12 +49,12 @@ div.mine, div.mine:hover {
 }
 
 div.hidden {
-  background: no-repeat center/100% url("images/khamen.jpg")
+  background: no-repeat center/100% url("images/crate.jpg")
   /*background: #eee;*/
 }
 
 div.hidden:hover {
-  background: no-repeat center/100% url("images/khamen.jpg");
+  background: no-repeat center/100% url("images/crate.jpg");
   border-color: rgb(9, 238, 39);
 }
 

@@ -43,11 +43,9 @@ function startGame () {
 
 function explosion () {
    let explosion = new Audio('sounds/explosion.mp3');
-   let bomb = new Audio('sounds/infidel.mp3');
     for (var i = 0; i < board.cells.length; i++) {
         if (board.cells[i].isMine && !board.cells[i].hidden) {
           explosion.play()
-          bomb.play();
         }
     }
 }
@@ -67,7 +65,7 @@ function checkForWin () {
   // You can use this function call to declare a winner (once you've
   // detected that they've won, that is!)
      
-     lib.displayMessage('You win...for now!')
+     lib.displayMessage('You Win!')
      win.play();    
 }
 
